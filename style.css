@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 100px;
+  background-color: aqua;
+}
+
+.main {
+  min-height: calc(100vh - 200px);
+  height: 100%;
+  background-color: wheat;
+  width: calc(100% - 500px);
+  margin-left: 300px;
+  float: left;
+}
+
+.left {
+  min-height: calc(100vh - 200px);
+  background-color: gray;
+  width: 300px;
+  margin-left: calc(-100% + 200px);
+  float: left;
+}
+
+.right {
+  min-height: calc(100vh - 200px);
+  background-color: greenyellow;
+  width: 200px;
+  float: left;
+}
+
+.footer {
+  min-height: 100px;
+  background-color: royalblue;
+}
+
+.clearfix {
+  clear: both;
+}
