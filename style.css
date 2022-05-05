@@ -10,7 +10,7 @@
 }
 
 .main {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100hv - 200px);
   height: 100%;
   background-color: wheat;
   width: calc(100% - 500px);
@@ -40,4 +40,40 @@
 
 .clearfix {
   clear: both;
+}
+
+.card-item {
+  display: inline-block;
+  padding: 5px;
+  border: 10px solid red;
+  width: 31.5%;
+  margin-left: 1em;
+}
+
+.card-item1 {
+  padding: 5px;
+  border: 10px solid red;
+  width: 32%;
+  float: left;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.card-item-image {
+  display: block;
+  width: 100%;
+}
+
+.card-item-title {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-item-price {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
 }
