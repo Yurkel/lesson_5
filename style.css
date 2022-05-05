@@ -10,8 +10,7 @@
 }
 
 .main {
-  min-height: calc(100hv - 200px);
-  height: 100%;
+  min-height: 100%;
   background-color: wheat;
   width: calc(100% - 500px);
   margin-left: 300px;
